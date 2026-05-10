@@ -87,3 +87,69 @@ footer {
     background-color: #111827;
 
 }
+
+
+.logo-area{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+nav a{
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #38bdf8;
+}
+
+.hero{
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+}
+
+.hero h2{
+    font-size: 55px;
+    color: #38bdf8;
+}
+
+.hero p{
+    font-size: 22px;
+    max-width: 700px;
+    margin:auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img{
+    width: 280px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform o.3s;
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+}
